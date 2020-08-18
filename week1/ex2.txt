@@ -1,0 +1,39 @@
+    1  cd A://GitHubCloned/OS_Homeworks/week1
+    2  cd A
+    3  cd A:
+    4  a:
+    5  cd a://GitHubCloned/OS_Homeworks/week1
+    6  mkdir
+    7  mkdir ~/week1
+    8  cd ~/week1
+    9  explorer.exe .
+   10  ex1.txt
+   11  touch ex1.txt
+   12  ls /usr/bin/"gcc" | sort -r >ex1.txt
+   13  ls /usr/bin
+   14  sudo apt install gcc
+   15  ls /usr/bin/"gcc" | sort -r >ex1.txt
+   16  ls /usr/bin/"gcc"
+   17  ls /usr/bin
+   18  ls /usr/bin/gcc/"gcc"
+   19  ls /usr/bin/gcc
+   20* ls /usr/b
+   21  ls C://mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin | sort -r >ex1.txt
+   22  ls C
+   23  ls C://
+   24  ls
+   25  ls -l /usr/bin/"gcc"
+   26  ls -l /usr/bin/"gcc" | sort -r
+   27  ls -l /usr/bin/"gcc" | sort -r >ex1.txt
+   28  ls -l ~/usr/bin/"gcc" | sort -r >ex1.txt
+   29  ls /usr/bin
+   30  ls -l ~/usr/bin/"gcc" | sort -r >ex1.txt
+   31  ls /usr/bin/"gcc" | sort -r >ex1.txt
+   32  ls /usr/bin/gcc | sort -r >ex1.txt
+   33  ls /usr/bin | sort -r  > ex1.txt
+   34  ls -l /usr/bin | sort -r  > ex1.txt
+   35  ls /usr/bin | find ~/ -type f -name "gcc" | sort -r  > ex1.txt
+   36  ls /usr/bin | grep "gcc" . -R | sort -r  > ex1.txt
+   37  ls /usr/bin | sort -r  > ex1.txt
+   38  ls /usr/bin | grep "gcc" | sort -r  > ex1.txt
+   39  history > ex2.txt

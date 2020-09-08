@@ -1,16 +1,22 @@
 #include <unistd.h>
 #include <stdio.h>
 
-int main(){
+int main()
+{
   int n = 26;
   int parentPID = getpid();
   fork();
+
   int newPID = getpid();
 
-  if(parentPID == newPID){
+  if(parentPID == newPID)
+  {
     printf("Hello from parent [%d - %d]\n", parentPID, n);
-  } else {
+  } 
+  else 
+  {
     printf("Hello from child [%d - %d]\n", newPID, n);
   }
+  
   return 0;
 }

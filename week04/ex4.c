@@ -8,19 +8,28 @@
 #define KCYN "\x1B[36m"
 #define KWHT "\x1B[37m"
 
-int main(){
+int main()
+{
 	char command[BUFF_SIZE];
-	while(1){
+
+	while(1)
+	{
 		char directory[BUFF_SIZE];
 		getcwd(directory, sizeof(directory));
+		
 		printf(KGRN "shell" KWHT ":" KCYN "%s" KWHT ": ", directory);
 		fgets(command, BUFF_SIZE, stdin);
 		command[strlen(command) - 1] = '\0';
-		if(strcmp(command, "exit") == 0){
+
+		if(strcmp(command, "exit") == 0)
+		{
 			break;
-		} else {
+		} 
+		else 
+		{
 	  	system(command);
 		}
 	}
+
 	return 0;
 }

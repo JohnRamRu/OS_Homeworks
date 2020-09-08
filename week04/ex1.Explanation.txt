@@ -1,0 +1,1 @@
+PID stands for "Process ID", and its main purpose is to identify the process.

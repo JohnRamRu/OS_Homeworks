@@ -1,0 +1,7 @@
+Before the first pstree command a.out forks and creates its own copy. Parent on the left, child on the right.
+
+Between the first and second pstree commands, both processes created earlier forks themselves.
+
+And on the third iteration of the loop, all four processes create copies of it.
+
+As a result, we have 8 processes.

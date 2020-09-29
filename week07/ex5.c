@@ -7,10 +7,10 @@ int main()
     char foo[] = "Hello World";
     *s = foo;
     
-    printf("s is %s \n", s);
+    printf("s is %s \n", s[0]);
 
     s[0] = foo;
 
-    printf("s[0] is %s \n",s[0]);
+    printf("s[0] is %s \n",s[0][0]);
     return(0);
 }

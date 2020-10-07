@@ -1,0 +1,2 @@
+A physical address is a real address in RAM.
+While the virtual addresses of each program are stored in a table accessible only to the program and mapped to real memory addresses.
